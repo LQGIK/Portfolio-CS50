@@ -1,0 +1,117 @@
+/* Images */
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+
+#background1 {
+  /* The image used */
+  background-image: url("/static/backs/board.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background2 {
+  /* The image used */
+  background-image: url("/static/backs/abstract.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#background3 {
+  /* The image used */
+  background-image: url("/static/backs/skateboard.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 1800px 1800px;
+}
+
+#background4 {
+  /* The image used */
+  background-image: url("/static/backs/aperature.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.top-buffer {
+  margin-top:20px;
+}
+
+/* Text */
+
+.shadow {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  margin: auto;
+  text-align: center;
+  text-shadow:
+             0px 0px 40px rgba(0,0,0,1),
+             0px 0px 30px rgba(0,0,0,1),
+             0px 0px 20px rgba(0,0,0,1);
+             0px 0px 10px rgba(0,0,0,1);
+}
+
+
+.main {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    top: 250%;
+    left: 33%;
+    border: solid black 5px;
+}
+
+.page1 {
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    position: relative;
+    top: 100%;
+    left: 10%;
+}
+
+.page2 {
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    position: relative;
+    top: 300%;
+    right: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+/* Colors */
+.grey {
+    background-color: black;
+}
+
+.white
+{
+    color: #FFFFFF;
+}
