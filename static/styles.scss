@@ -1,0 +1,110 @@
+/* Variables */
+$font: "Times New Roman", Times, serif;
+
+
+
+/* Images */
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+
+
+/* Background */
+
+%background {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.background1 {
+    background-color: lightgrey;
+    background-image: url("/static/backs/lights.jpg");
+    background-position: bottom;
+    background-size: 60%;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+.background2 {
+    @extend %background;
+    background-image: url("/static/backs/abstract.jpg");
+}
+
+.background3 {
+    background-position: top;
+    background-image: url("/static/backs/skateboard.jpg");
+}
+
+.background4 {
+    background-image: url("/static/backs/aperature.jpg");
+}
+
+
+
+/* Text */
+
+.shadow {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  margin: auto;
+  text-align: center;
+  text-shadow:
+             0px 0px 40px rgba(0,0,0,1),
+             0px 0px 30px rgba(0,0,0,1),
+             0px 0px 20px rgba(0,0,0,1),
+             0px 0px 10px rgba(0,0,0,1);
+}
+
+h3 {
+    #welcome {
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: medium;
+    font-family: $font;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    }
+}
+
+.text {
+    font-size: 25px;
+    font-family: $font;
+    text-align: center;
+    position: relative;
+    top: 190px;
+}
+
+
+li:hover {
+    background-color: darkgrey;
+}
+
+
+
+/* Colors */
+
+.black {
+    color: black;
+}
+
+.white
+{
+    color: white;
+}
+
+
+
+/* Media */
+
+@media (max-width: 499px) {
+    body {
+        font-size: 10px;
+    }
+}
